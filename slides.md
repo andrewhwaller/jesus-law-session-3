@@ -37,7 +37,7 @@ fonts:
 layout: quote
 ---
 
-# Lev 10:8--11
+# Leviticus 10:8--11
 “And the <sc>Lord</sc> spoke to Aaron saying... ‘You shall distinguish between the holy and the profane, and between the impure and the pure, and you shall teach the people of Israel all the statutes that the <sc>Lord</sc> spoke to them through Moses.’”
 
 <!--
