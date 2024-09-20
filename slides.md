@@ -56,7 +56,7 @@ layout: quote
 “\[The land's\] priests have done violence to my instruction and have profaned my holy things; they have not distinguished between the holy and the profane, and they have not taught the difference between the impure and the pure, and they have disregarded my sabbaths, so that I am profaned in their midst.”
 
 # Ezekiel 44:23
-“And \[the priests\] shall teach my people the difference between the holy from the profane, and to know the difference between the impure and the pure.”
+“And \[the priests\] shall teach my people to know the difference between the holy and the profane, and the difference between the impure and the pure.”
 
 ---
 layout: chart
