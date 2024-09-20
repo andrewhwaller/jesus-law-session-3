@@ -44,19 +44,39 @@ layout: quote
 * Lev 10 describes a fundamental duty of the priests: to distinguish and to teach.
 * The priests are responsible for maintaining boundaries around the presence of the Lord and around the people and the land.
     * This involves separating the holy and profane and the pure and the impure.
-    * Many English translations use the terms "clean"/"unclean" which sort of masks what's actually going on. 
+    * Many English translations use the terms "clean"/"unclean" which obscures what's actually going on. 
         * The issue isn't cleanliness, but impurity.
         * This is a metaphysical contagion that goes beyond the presence or absence of dirt or other physical contaminants.
 -->
+
+---
+layout: quote
+---
+
+# Leviticus 15:31
+“\[The <sc>Lord</sc> spoke to Moses and Aaron, saying,\] ‘Thus shall you keep the people of Israel separate from their impurity, lest they die in their impurity by defiling my tabernacle that is in their midst.’”
+
+<!--
+* The significance of purity law is not a a matter of cleanliness or of simple piety.
+* Rather, the continued cohabitation of God with the nation is at stake.
+* The defiling of the tabernacle threatens the integrity of the Sinai covenant.
+-->
+
 ---
 layout: quote
 ---
 
 # Ezekiel 22:26 
-“\[The land's\] priests have done violence to my instruction and have profaned my holy things; they have not distinguished between the holy and the profane, and they have not taught the difference between the impure and the pure, and they have disregarded my sabbaths, so that I am profaned in their midst.”
+“\[The land’s\] priests have done violence to my instruction and have profaned my holy things; they have not distinguished between the holy and the profane, and they have not taught the difference between the impure and the pure, and they have disregarded my sabbaths, so that I am profaned in their midst.”
 
 # Ezekiel 44:23
 “And \[the priests\] shall teach my people to know the difference between the holy and the profane, and the difference between the impure and the pure.”
+
+<!--
+* This priestly duty comes up in Ezekiel 22:26 and Ezekiel 44:23.
+* Ezekiel 22 describes the failure of the priests to properly teach/distinguish; this leads to the profanation of God himself.
+* Ezekiel 44 describes a vision of a renewed temple where the priests carry out their duty appropriately.
+-->
 
 ---
 layout: chart
@@ -82,24 +102,34 @@ quadrantChart
     an undefiled household item: [0.75, 0.3]
     ritually undefiled persons: [0.75, 0.2]
 ```
+
 ---
-layout: chart
+layout: default
 ---
 
 ```mermaid
 sequenceDiagram
     title A continuum of ritual states?
-    participant Impurity
-    participant Purity
-    participant Holiness
-    Purity->>Impurity: defilement
-    Purity->>Holiness: consecration
-    Holiness->>Purity: profanation
-    Impurity->>Purity: purification
+    participant Impure
+    participant Pure
+    participant Holy
+    Pure->>Impure: defilement
+    Pure->>Holy: consecration
+    Holy->>Pure: profanation
+    Impure->>Pure: purification
 ```
+
+Adapted from Jay Sklar, *Leviticus: An Introduction and Commentary*, TOTC 3 (Downers Grove, Ill.: InterVarsity Press, 2014), 44--49.
+
+<style>
+p {
+  @apply text-xs;
+}
+</style>
+
 <!--
 * Is there an impurity-holiness continuum?
-* Jay Sklar portrays ritual status in this way, although the words "continuum" or "spectrum" are not used.
+* Jay Sklar portrays ritual status in this way, although the words "continuum" or "spectrum" are not used (see Jay Sklar, Leviticus: An Introduction and Commentary, TOTC 3 (Downers Grove, Ill.: InterVarsity Press, 2014), 44--49).
 * In this schema, consecration moves the subject from purity to holiness, while profanation does the opposite.
 * Likewise, defilement and purification allow movement between purity and impurity.
 * The issue here is that this framing does not account for the possibility of the defilement of a holy item.
@@ -108,6 +138,7 @@ sequenceDiagram
     * Indeed, it is the continued holiness of the subject that demands elimination of impurity.
 * It seems better to understand holiness as a divinely-ordained state that persists even if the subject undergoes defilement.
 -->
+
 ---
 layout: qr-code
 url: https://andrewhwaller.github.io/slidev-template
