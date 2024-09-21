@@ -77,7 +77,7 @@ layout: chart
 
 ```mermaid
 quadrantChart
-    title “You shall separate...”
+    title “You shall distinguish...”
     x-axis Impure --> Pure
     y-axis Profane --> Holy
     quadrant-1 holy and pure
