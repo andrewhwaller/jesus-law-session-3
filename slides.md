@@ -94,12 +94,11 @@ quadrantChart
     sacrifices/consecrated food: [0.75, 0.85]
     the purified altar after the Day of Atonement: [0.75, 0.65]
     a priest serving in the temple: [0.75, 0.75]
-    the altar defiled by sin/moral impurity: [0.25, 0.8]
-    the exilic temple: [0.25, 0.7]
-    a household item defiled by bodily impurity: [0.25, 0.35]
+    the altar defiled by sin/moral impurity: [0.25, 0.75]
+    an item defiled by contact with impurity: [0.25, 0.35]
     a person with lepra: [0.25, 0.25]
     a building containing a corpse: [0.25, 0.14]
-    an undefiled household item: [0.75, 0.3]
+    all ritually undefiled items: [0.75, 0.3]
     ritually undefiled persons: [0.75, 0.2]
 ```
 
@@ -109,17 +108,18 @@ layout: default
 
 ```mermaid
 sequenceDiagram
-    title A continuum of ritual states?
+    title Movement between ritual states
     participant Impure
-    participant Pure
+    participant Pure/Profane
     participant Holy
-    Pure->>Impure: defilement
-    Pure->>Holy: consecration
-    Holy->>Pure: profanation
-    Impure->>Pure: purification
+    Pure/Profane->>Impure: defilement
+    Pure/Profane->>Holy: consecration
+    Holy->>Pure/Profane: desanctify (legitimate)
+    Holy->>Pure/Profane: desecration (illegitimate)
+    Impure->>Pure/Profane: purification
 ```
 
-Adapted from Jay Sklar, *Leviticus: An Introduction and Commentary*, TOTC 3 (Downers Grove, Ill.: InterVarsity Press, 2014), 44--49.
+Adapted from Jacob Milgrom, “The Dynamics of Purity in the Priestly System,” in *Purity and Holiness: The Heritage of Leviticus*, ed. Marcel Poorthuis and Joshua J. Schwartz, 30.
 
 <style>
 p {
@@ -127,17 +127,6 @@ p {
 }
 </style>
 
-<!--
-* Is there an impurity-holiness continuum?
-* Jay Sklar portrays ritual status in this way, although the words "continuum" or "spectrum" are not used (see Jay Sklar, Leviticus: An Introduction and Commentary, TOTC 3 (Downers Grove, Ill.: InterVarsity Press, 2014), 44--49).
-* In this schema, consecration moves the subject from purity to holiness, while profanation does the opposite.
-* Likewise, defilement and purification allow movement between purity and impurity.
-* The issue here is that this framing does not account for the possibility of the defilement of a holy item.
-    * To wit, the altar does not cease to be holy when it is defiled by moral impurity.
-    * Likewise, a priest does not cease to be holy when he is defiled by bodily impurity.
-    * Indeed, it is the continued holiness of the subject that demands elimination of impurity.
-* It seems better to understand holiness as a divinely-ordained state that persists even if the subject undergoes defilement.
--->
 
 ---
 layout: section
@@ -158,6 +147,13 @@ layout: quote
 # Leviticus 12:2--7 (NRSV)
 “If a woman conceives and bears a male child, she shall be impure seven days; as at the time of her menstruation, she shall be impure\.\.\.\. Her time of blood purification shall be thirty-three days; she shall not touch any holy thing, or come into the sanctuary, until the days of her purification are completed\.\.\.\. When the days of her purification are completed... she shall bring to the priest at the entrance of the tent of meeting a lamb in its first year for a burnt offering, and a pigeon or a turtledove for a \[purification\] offering. He shall offer it before the <sc>Lord</sc>, and \[effect expiation/purgation\] on her behalf; then she shall be purified from her flow of blood.”
 
+<!--
+* Note that no sin is involved here. A possible misperception here is that ritual impurity is sinful and so the process of pregnancy and childbirth is somehow related to sin.
+    * Rather, the point is maintaining the boundary between holy space and impurity.
+* Why does childbirth warrant this purification?
+    * There isn't a clear explanation for this, but we can discern a pattern, i.e., many of the circumstances requiring purification are related to life and death. Loss of blood or seminal fluid clearly relates to forces of life and death, for example.
+-->
+
 ---
 layout: quote
 ---
@@ -168,14 +164,43 @@ layout: quote
 ---
 layout: quote
 ---
+
 # Numbers 19:11--15
 “Those who touch the dead body of any human being shall be impure seven days. They shall purify themselves with \[the water of purification\] on the third day and on the seventh day, and so be pure; but if they do not purify themselves on the third day and on the seventh day, they will not become pure. All who touch a corpse, the body of a human being who has died, and do not purify themselves, defile the tabernacle of the <sc>Lord</sc>; such persons shall be cut off from Israel. Since water for purification was not dashed on them, they remain impure; their impurity is still on them. This is the law when someone dies in a tent: everyone who comes into the tent, and everyone who is in the tent, shall be impure seven days. And every open vessel with no cover fastened on it is impure.”
+
+---
+layout: section
+---
+
+# moral impurity
 
 ---
 layout: quote
 ---
 
-# 
+# Leviticus 18:26--28
+“But you shall keep my statutes and my ordinances and commit none of these \[sexual\] abominations... otherwise the land will vomit you out for defiling it, as it vomited out the nation that was before you.”
+
+# Leviticus 20:3
+“I myself will set my face against \[the one who worships Molech\], and will cut them off from the people, because they have given of their offspring to Molech, defiling my sanctuary and profaning my holy name.”
+
+# Numbers 35:33--34
+“You shall not pollute the land in which you live; for blood pollutes the land, and no \[expiation/purgation\] can be made for the land... except by the blood of the one who shed it. You shall not defile the land in which you live, in which I also dwell; for I the <sc>Lord</sc> dwell among the Israelites.”
+
+<!--
+* Moral impurity differs from ritual impurity.
+    * Moral impurity results from serious sin, especially sexual sin, idolatry, or violence.
+    * This impurity lacks the contagious nature of ritual impurity. Rather, moral impurity pollutes the land and sanctuary.
+    * This impurity cannot be removed by the usual purification methods used to address ritual impurity. You have to keep from committing these serious sins in the first place or accept the punishment/atonement that the law prescribes.
+    * Although the language of purity and defilement are used to describe moral impurity, the terms "pollution" and "abomination" largely pertain only to moral impurity.
+* How does sin defile?
+    * Much like ritual impurity, it's not clear exactly how sin defiles. The exact mechanics of how sin defiles the altar/sanctuary/land isn't made explicit in biblical law.
+    * Various ideas about the defiling nature of sin crop up in early Jewish literature, but biblical law itself does not explain this.
+* This has significant implications for the life of the nation.
+    * Sin degrades the one who commits it and brings the pollution of moral impurity to the individual, the land, and the sanctuary.
+    * God warns that if the lang reaches a sufficient level of moral pollution, he will remove the source of impurity, i.e., Israel.
+    * Non-Israelite lands are already thought of as polluted with moral impurity, so the goal is to keep Israel from becoming like the profane nations; Israel must be holy.
+-->
 
 ---
 layout: default
@@ -196,6 +221,27 @@ layout: default
 3. Pollutes the land of Israel.
 4. Typically can be removed via atonement or punishment, but sometimes irremovable.
 5. ***Absolutely*** sinful.
+
+<!--
+* These laws are not metaphors for the Israelites.
+    * These laws are about living in such a way that God's holy nation is continuously aware of their calling.
+        * Notably, if someone doesn't follow the laws regarding ritual purity, they violate God's commands and run the risk of incurring moral impurity. These two systems are related.
+    * Furthermore, these laws make God's continued presence among his people and the presence of the people in the land possible.
+-->
+
+---
+layout: quote
+---
+
+# Jacob Milgrom
+“Biblical impurity and holiness... are semantic opposites and as the quintessence and source of *qedusha* resides with God, it is imperative for Israel to control the occurrence of impurity lest it impinge on the realm of the holy God. The forces pitted against each other in the cosmic struggle are no longer the benevolent and demonic deities that populate the mythologies of Israel’s neighbors but ***the forces of life and death*** set loose by humans themselves through their obedience to or defiance of God’s commandments.”
+
+# Matthew Thiessen
+“Proper maintenance, ***not transformation***, of the current conditions of the world was \[the priests’\] sole, divinely ordained goal\.\.\.\. The Jesus of the Gospels is the holy one of God, a man who embodies a contagious power or force that is opposed to and ultimately destroys the powers that create impurity and death.”
+
+<!--
+See Jacob Milgrom, “The Dynamics of Purity in the Priestly System,” in *Purity and Holiness: The Heritage of Leviticus*, ed. Marcel Poorthuis and Joshua J. Schwartz, Jewish and Christian Perspectives Series 2 (Leiden: Brill, 2000), 32 and Matthew Thiessen, *Jesus and the Forces of Death: The Gospels’ Portrayal of Ritual Impurity within First-Century Judaism* (Grand Rapids, Mich.: Baker Academic, 2021), 19--20.
+-->
 
 ---
 layout: qr-code
