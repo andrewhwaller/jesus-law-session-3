@@ -41,6 +41,10 @@
   h6:not(.opacity-100) {
     @apply opacity-40;
   }
+
+  li {
+    @apply text-2xl;
+  }
 }
 
 .slidev-layout.cover,
@@ -97,5 +101,11 @@
 .slidev-layout.section {
   h1 {
     @apply text-6xl font-500 leading-20;
+  }
+}
+
+.slidev-layout.two-columns {
+  li {
+    @apply text-xl;
   }
 }
