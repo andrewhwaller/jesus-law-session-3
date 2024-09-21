@@ -40,6 +40,9 @@ layout: quote
 # Leviticus 10:8--11
 “And the <sc>Lord</sc> spoke to Aaron saying... ‘You shall distinguish between the holy and the profane, and between the impure and the pure, and you shall teach the people of Israel all the statutes that the <sc>Lord</sc> spoke to them through Moses.’”
 
+# Leviticus 15:31
+“\[The <sc>Lord</sc> spoke to Moses and Aaron, saying,\] ‘Thus shall you keep the people of Israel separate from their impurity, lest they die in their impurity by defiling my tabernacle that is in their midst.’”
+
 <!--
 * Lev 10 describes a fundamental duty of the priests: to distinguish and to teach.
 * The priests are responsible for maintaining boundaries around the presence of the Lord and around the people and the land.
@@ -47,16 +50,6 @@ layout: quote
     * Many English translations use the terms "clean"/"unclean" which obscures what's actually going on. 
         * The issue isn't cleanliness, but impurity.
         * This is a metaphysical contagion that goes beyond the presence or absence of dirt or other physical contaminants.
--->
-
----
-layout: quote
----
-
-# Leviticus 15:31
-“\[The <sc>Lord</sc> spoke to Moses and Aaron, saying,\] ‘Thus shall you keep the people of Israel separate from their impurity, lest they die in their impurity by defiling my tabernacle that is in their midst.’”
-
-<!--
 * The significance of purity law is not a a matter of cleanliness or of simple piety.
 * Rather, the continued cohabitation of God with the nation is at stake.
 * The defiling of the tabernacle threatens the integrity of the Sinai covenant.
@@ -233,6 +226,20 @@ layout: default
 layout: quote
 ---
 
+# Deuteronomy 30:11--15
+“Surely, this commandment that I am commanding you today is not too hard for you, nor is it too far away. It is not in heaven, that you should say, ‘Who will go up to heaven for us, and get it for us so that we may hear it and observe it?’ ... No, the word is very near to you; it is in your mouth and in your heart for you to observe. See, I have set before you today life and \[good\], death and \[evil\].”
+
+<!--
+* Is Israel actually supposed to be able to keep all these purification laws? Absolutely yes.
+* It's common to hear that biblical law is purposefully extensive and obtuse so that Israel would not be able to keep it all and therefore be forced to rely on God's mercy.
+    * There's some merit to the idea that Israel needed to rely on God's grace and mercy.
+    * Still, God gives this law ***to be kept***. It makes no sense to say that obedience to biblical law is an impossible task that is, Tantalus-like, always out of Israel's grasp.
+    * Will Israel fail? Certainly. But this isn't due to the impossibility of obedience but rather the ensnaring power of human sin.
+-->
+---
+layout: quote
+---
+
 # Jacob Milgrom
 “Biblical impurity and holiness... are semantic opposites and as the quintessence and source of *qedusha* resides with God, it is imperative for Israel to control the occurrence of impurity lest it impinge on the realm of the holy God. The forces pitted against each other in the cosmic struggle are no longer the benevolent and demonic deities that populate the mythologies of Israel’s neighbors but ***the forces of life and death*** set loose by humans themselves through their obedience to or defiance of God’s commandments.”
 
@@ -241,6 +248,10 @@ layout: quote
 
 <!--
 See Jacob Milgrom, “The Dynamics of Purity in the Priestly System,” in *Purity and Holiness: The Heritage of Leviticus*, ed. Marcel Poorthuis and Joshua J. Schwartz, Jewish and Christian Perspectives Series 2 (Leiden: Brill, 2000), 32 and Matthew Thiessen, *Jesus and the Forces of Death: The Gospels’ Portrayal of Ritual Impurity within First-Century Judaism* (Grand Rapids, Mich.: Baker Academic, 2021), 19--20.
+
+* This binary of impurity and holiness calls to mind the words of Moses
+* Notably, the priests are not out to rid the world of impurity.
+    * Rather, they are Israel's janitors, tasked with enabling the people to remove their impurity and teaching them how to keep covenant with God.
 -->
 
 ---
@@ -249,3 +260,4 @@ url: https://andrewhwaller.github.io/slidev-template
 ---
 # QR code for this presentation
 ---
+
