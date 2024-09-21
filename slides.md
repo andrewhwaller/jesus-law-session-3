@@ -140,6 +140,64 @@ p {
 -->
 
 ---
+layout: section
+---
+
+# ritual impurity
+
+<!--
+* Violations of the boundaries between holy/profane and impure/pure are described using the language of "defilement."
+* This language occurs in different contexts and describes different actions and states.
+* When we survey these different contexts, we find that there are two types of impurity that Leviticus descibes: ritual impurity and moral impurity.
+-->
+
+---
+layout: quote
+---
+
+# Leviticus 12:2--7 (NRSV)
+“If a woman conceives and bears a male child, she shall be impure seven days; as at the time of her menstruation, she shall be impure\.\.\.\. Her time of blood purification shall be thirty-three days; she shall not touch any holy thing, or come into the sanctuary, until the days of her purification are completed\.\.\.\. When the days of her purification are completed... she shall bring to the priest at the entrance of the tent of meeting a lamb in its first year for a burnt offering, and a pigeon or a turtledove for a \[purification\] offering. He shall offer it before the <sc>Lord</sc>, and \[effect expiation/purgation\] on her behalf; then she shall be purified from her flow of blood.”
+
+---
+layout: quote
+---
+
+# Leviticus 15:2--15
+“When any man has a discharge from his member, his discharge makes him impure\.\.\.\. Every bed on which the one with the discharge lies shall be impure; and everything on which he sits shall be impure. Anyone who \[touches the man or various objects he has touched\] shall wash \[their\] clothes, and bathe in water, and be impure until the evening\.\.\.\. When the one with a discharge is cleansed of his discharge, he shall count seven days for his purification; he shall wash his clothes and bathe his body in fresh water, and he shall be purified. On the eighth day he shall take two turtledoves or two pigeons and come before the <sc>Lord</sc> to the entrance of the tent of meeting and give them to the priest. The priest shall offer them, one for a \[purification\] offering and the other for a burnt offering; and the priest shall \[effect expiation/purgation\] on his behalf before the <sc>Lord</sc> for his discharge.”
+
+---
+layout: quote
+---
+# Numbers 19:11--15
+“Those who touch the dead body of any human being shall be impure seven days. They shall purify themselves with \[the water of purification\] on the third day and on the seventh day, and so be pure; but if they do not purify themselves on the third day and on the seventh day, they will not become pure. All who touch a corpse, the body of a human being who has died, and do not purify themselves, defile the tabernacle of the <sc>Lord</sc>; such persons shall be cut off from Israel. Since water for purification was not dashed on them, they remain impure; their impurity is still on them. This is the law when someone dies in a tent: everyone who comes into the tent, and everyone who is in the tent, shall be impure seven days. And every open vessel with no cover fastened on it is impure.”
+
+---
+layout: quote
+---
+
+# 
+
+---
+layout: default
+---
+
+# Ritual impurity
+1. Unavoidable, sometimes natural, and part of everyday life.
+2. Can be contracted from objects or substances.
+3. Can be transmitted to others directly and indirectly.
+4. Removed by time, ritual washing, and sometimes sacrifice.
+5. ***Not*** sinful! It is not a sin to become ritually impure.
+
+<br/>
+
+# Moral impurity
+1. Avoidable.
+2. Caused by grave sin, but cannot be spread through social contagion.
+3. Pollutes the land of Israel.
+4. Typically can be removed via atonement or punishment, but sometimes irremovable.
+5. ***Absolutely*** sinful.
+
+---
 layout: qr-code
 url: https://andrewhwaller.github.io/slidev-template
 ---
